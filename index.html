@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MD. Emran Khondakar — Web Developer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header id="site-header">
+  <nav class="nav container">
+    <a href="#home" class="brand">
+      <span class="brand-mark">Emran</span><span class="brand-dot">.</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active-link"><span class="idx"></span>Home</a></li>
+      <li><a href="#about" class="nav-link"><span class="idx"></span>About</a></li>
+      <li><a href="#skills" class="nav-link"><span class="idx"></span>Skills</a></li>
+      <li><a href="#experience" class="nav-link"><span class="idx"></span>Experience</a></li>
+      <li><a href="#projects" class="nav-link"><span class="idx"></span>Projects</a></li>
+      <li><a href="#contact" class="nav-link"><span class="idx"></span>Contact</a></li>
+    </ul>
+
+    <div class="nav-tools">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button id="menuBtn" class="menu-btn" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero container" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">// available for freelance &amp; full-time work</p>
+    <h1 class="hero-name">MD. Emran<br>Khondakar</h1>
+    <p class="hero-role"><span class="typed"></span><span class="cursor">|</span></p>
+    <p class="hero-desc">An ambitious Computer Science & Engineering student seeking an entry-level role in a dynamic organization,
+where I can apply my programming skills, technical knowledge, and passion for continuous learning to support
+team goals.
+</p>
+
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-solid">Let's talk <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="Emran cv.pdf" class="btn btn-outline">Download CV <i class="fa-solid fa-download"></i></a>
+    </div>
+
+    <div class="hero-social">
+      <a href="https://github.com/mek-khondakar" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/mek-emran" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://www.facebook.com/mek.khondakar" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/mek.khondakar/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="photo-frame">
+      <img src="Emran.jpg" alt="MD. Emran Khondakar">
+    </div>
+
+    <div class="code-card">
+      <div class="code-card-head">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="code-file">profile.js</span>
+      </div>
+      <pre class="code-body"><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"MD. Emran Khondakar"</span>,
+  <span class="c-prop">role</span>: <span class="c-str">"Web Developer"</span>,
+  <span class="c-prop">based_in</span>: <span class="c-str">"Dhaka-Bangladesh"</span>,
+  <span class="c-prop">status</span>: <span class="c-str">"available"</span>
+};</code></pre>
+    </div>
+
+    <div class="stat-chip stat-chip-1">
+      <strong id="statProjects">00</strong>
+      <span>Projects done</span>
+    </div>
+    <div class="stat-chip stat-chip-2">
+      <strong id="statYears">00</strong>
+      <span>Years experience</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section container" id="about">
+  <p class="section-eyebrow">  About</p>
+  <div class="about-grid">
+    <div class="about-photo">
+      <img src="mek.jpg" alt="MD. Emran Khondakar portrait">
+      <div class="about-photo-tag">Based in <span>Dhaka-Bangladesh</span></div>
+    </div>
+
+    <div class="about-copy">
+      <h2 class="section-title">A little about me.</h2>
+      <p>"An ambitious Computer Science & Engineering student looking for an
+entry-level role in a dynamic organization where I can apply my programming
+skills, technical knowledge, and passion for continuous learning to support team
+goals."
+</p>
+      <p>I enjoy building modern, responsive, and user-friendly web projects. Currently, I am improving my skills in JavaScript, React, Python, and modern web development technologies.</p>
+
+      <div class="about-facts">
+        <div class="fact">
+          <span class="fact-label">Name</span>
+          <span class="fact-value">MD. Emran Khondakar</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Role</span>
+          <span class="fact-value">[Your Job Title]</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Phone</span>
+          <span class="fact-value">01845344295</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Email</span>
+          <span class="fact-value">mek.emran20@gmail.com</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Freelance</span>
+          <span class="fact-value">[Available / Not available]</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Location</span>
+          <span class="fact-value">Dhaka-Bangladesh</span>
+        </div>
+      </div>
+
+      <a href="Emran cv.pdf" class="btn btn-outline">Download Resume <i class="fa-solid fa-download"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section container" id="skills">
+  <p class="section-eyebrow"> Skills</p>
+  <h2 class="section-title">Tools I build with.</h2>
+
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h3><i class="fa-solid fa-code"></i> Languages</h3>
+      <div class="chip-row">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Tailwind CSS</span>
+        <span class="chip">[Add skill]</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3><i class="fa-solid fa-layer-group"></i> Frameworks &amp; Libraries</h3>
+      <div class="chip-row">
+        <span class="chip">[Add framework]</span>
+        <span class="chip">[Add framework]</span>
+        <span class="chip">[Add framework]</span>
+        <span class="chip">[Add framework]</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3><i class="fa-solid fa-toolbox"></i> Tools &amp; Platforms</h3>
+      <div class="chip-row">
+        <span class="chip">Git</span>
+        <span class="chip">[Add tool]</span>
+        <span class="chip">[Add tool]</span>
+        <span class="chip">[Add tool]</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3><i class="fa-solid fa-comments"></i> Other Skills</h3>
+      <div class="chip-row">
+        <span class="chip">Team Leadership & Management</span>
+        <span class="chip">Class Representative (CR)</span>
+        <span class="chip">Teamwork</span>
+        <span class="chip">Negotiation Skill</span>
+        <span class="chip">Adaptability</span>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section container" id="experience">
+  <p class="section-eyebrow">  Experience</p>
+  <h2 class="section-title">Where I've worked.</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-marker">01</div>
+      <div class="timeline-content">
+        <span class="timeline-date">[Start — End]</span>
+        <h3>[Job Title]</h3>
+        <p class="timeline-company">[Company Name]</p>
+        <p>[Add your information here — briefly describe what you did in this role, tools you used, and results you achieved.]</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-marker">02</div>
+      <div class="timeline-content">
+        <span class="timeline-date">[Start — End]</span>
+        <h3>[Job Title]</h3>
+        <p class="timeline-company">[Company Name]</p>
+        <p>[Add your information here.]</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-marker">03</div>
+      <div class="timeline-content">
+        <span class="timeline-date">[May 2026 – Present]</span>
+        <h3>[Degree / Certification]</h3>
+        <p class="timeline-company">Uttara University</p>
+        <p>B.Sc. in Computer Science & Engineering</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section container" id="projects">
+  <p class="section-eyebrow">  Projects</p>
+  <h2 class="section-title">Selected work.</h2>
+
+  <div class="project-grid">
+    <article class="project-card">
+      <div class="project-thumb"><i class="fa-solid fa-globe"></i></div>
+      <div class="project-body">
+        <h3>[Project Name]</h3>
+        <p>[Add your information here — what the project does and the problem it solves.]</p>
+        <div class="chip-row small">
+          <span class="chip">[Tech]</span>
+          <span class="chip">[Tech]</span>
+        </div>
+        <div class="project-links">
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+          <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-thumb"><i class="fa-solid fa-cart-shopping"></i></div>
+      <div class="project-body">
+        <h3>[Project Name]</h3>
+        <p>[Add your information here — what the project does and the problem it solves.]</p>
+        <div class="chip-row small">
+          <span class="chip">[Tech]</span>
+          <span class="chip">[Tech]</span>
+        </div>
+        <div class="project-links">
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+          <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-thumb"><i class="fa-solid fa-mobile-screen"></i></div>
+      <div class="project-body">
+        <h3>[Project Name]</h3>
+        <p>[Add your information here — what the project does and the problem it solves.]</p>
+        <div class="chip-row small">
+          <span class="chip">[Tech]</span>
+          <span class="chip">[Tech]</span>
+        </div>
+        <div class="project-links">
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+          <a href="#"><i class="fa-brands fa-github"></i> Code</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="section container" id="testimonials">
+  <p class="section-eyebrow">  Testimonials</p>
+  <h2 class="section-title">What people say.</h2>
+
+  <div class="testimonial-grid">
+    <div class="testimonial-card">
+      <i class="fa-solid fa-quote-left quote-icon"></i>
+      <p>[Add a testimonial here — a short quote from a client, teacher, or colleague about working with you.]</p>
+      <div class="testimonial-person">
+        <div class="avatar">?</div>
+        <div>
+          <strong>[Client Name]</strong>
+          <span>[Their Role / Company]</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <i class="fa-solid fa-quote-left quote-icon"></i>
+      <p>[Add another testimonial here.]</p>
+      <div class="testimonial-person">
+        <div class="avatar">?</div>
+        <div>
+          <strong>[Client Name]</strong>
+          <span>[Their Role / Company]</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section container" id="contact">
+  <p class="section-eyebrow"> Contact</p>
+  <div class="contact-grid">
+    <div class="contact-info-panel">
+      <h2 class="section-title">Let's build<br>something together.</h2>
+      <p>[Add a short line here inviting people to reach out about projects or opportunities.]</p>
+
+      <ul class="contact-list">
+        <li><i class="fa-solid fa-phone"></i> 01845344295</li>
+        <li><i class="fa-solid fa-envelope"></i> mek.emran20@gmail.com</li>
+        <li><i class="fa-solid fa-location-dot"></i> Dhaka-Bangladesh</li>
+      </ul>
+
+      <div class="hero-social">
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-row">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Your email">
+      </div>
+      <input type="text" placeholder="Subject">
+      <textarea placeholder="Tell me about your project..."></textarea>
+      <button type="button" class="btn btn-solid">Send message <i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container footer-grid">
+    <a href="#home" class="brand">
+      <span class="brand-mark">ek</span><span class="brand-dot">.</span>
+    </a>
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="footer-copy">&copy; <span id="year"></span> MD. Emran Khondakar. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
